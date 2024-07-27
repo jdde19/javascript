@@ -41,9 +41,3 @@ const callback = function(err, data)
 }
 
 readFile(paths[0], "utf-8", callback);
-
-function sum()
-{
-    let hello;
-    return hello;
-}
