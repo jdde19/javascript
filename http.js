@@ -23,4 +23,5 @@ const callback = function(req, res)
     }
 }
 
-createServer(callback).listen(3000)
+const server = createServer(callback)
+server.listen(3000);
